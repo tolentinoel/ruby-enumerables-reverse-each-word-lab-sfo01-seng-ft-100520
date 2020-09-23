@@ -18,9 +18,9 @@ def test_this(string)
   a = string.split
   a.collect do |i| 
     result = i.reverse
-    p result.strip
+    p result
   end
   
 end
  
-test_this(string)
+test_this(hello)
