@@ -20,8 +20,9 @@ def reverse_each_word(string)
   
   a.collect do |i| 
     x = i.reverse
+    puts x
   end
- puts x
+
 end
  
 # test_this(string)
