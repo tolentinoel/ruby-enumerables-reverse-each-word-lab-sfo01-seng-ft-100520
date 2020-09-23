@@ -21,4 +21,4 @@ def test_this(string)
   string
 end
  
-test_this(hello)
+test_this(string)
