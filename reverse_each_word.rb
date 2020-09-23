@@ -5,22 +5,11 @@
 # hello = "Ako jejemon, Ikaw sino ka?"
 
 def reverse_each_word(string)
-#   i = 0
-#   new_array = string.split
-#     if i < new_array.length 
-#     new_array[i].reverse
-#     i += 1
-#   end
-#   new_array
-# end
-
-# def test_this(string)
-  result = string.split
-  result.collect do |i| 
-    puts i.reverse!
-   
+  string = string.split
+  string.each do |i| 
+    puts i.reverse
   end
-   
+  string.join(" ")
 end
-
+ reverse_each_word(string)
 # test_this(hello)
