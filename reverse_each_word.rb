@@ -23,4 +23,4 @@ def test_this(string)
   p x.join(" ")
 end
  
-test_this(hello)
+test_this(string)
