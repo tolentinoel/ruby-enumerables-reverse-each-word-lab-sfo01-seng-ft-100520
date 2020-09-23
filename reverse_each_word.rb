@@ -18,10 +18,9 @@ def test_this(string)
   x = []
   a = string.split
   a.collect do |i| 
-    result = i.reverse
-    x << result
+    x << i.reverse
   end
-  x
+  x.join(" ")
 end
  
 test_this(hello)
