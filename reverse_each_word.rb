@@ -4,7 +4,7 @@
 string = "Hello there, and how are you?"
 hello = "Ako jejemon, Ikaw sino ka?"
 
-# def reverse_each_word(string)
+def reverse_each_word(string)
 #   i = 0
 #   new_array = string.split
 #     if i < new_array.length 
@@ -14,7 +14,7 @@ hello = "Ako jejemon, Ikaw sino ka?"
 #   new_array
 # end
 
-def test_this(string)
+# def test_this(string)
   string = string.split
   string.each do |i| 
     puts i.reverse
@@ -22,4 +22,4 @@ def test_this(string)
   string
 end
 
-test_this(hello)
+# test_this(hello)
