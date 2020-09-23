@@ -13,8 +13,8 @@ hello = "Ako jejemon"
 #   new_array
 # end
 
-def test(string)
+def test_this(string)
   string.collect {|i| string.reverse}
 end
 
-test(hello)
+test_this(hello)
