@@ -20,7 +20,7 @@ def test_this(string)
     result.join(' ') = i.reverse
     p result
   end
-  
+end
 end
  
 test_this(hello)
