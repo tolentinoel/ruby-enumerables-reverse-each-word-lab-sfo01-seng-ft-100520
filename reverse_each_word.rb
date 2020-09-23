@@ -16,7 +16,7 @@ def reverse_each_word(string)
 
 # def test_this(string)
   string = string.split
-  string.each do |i| 
+  string.collect do |i| 
     puts i.reverse
   end
   string
