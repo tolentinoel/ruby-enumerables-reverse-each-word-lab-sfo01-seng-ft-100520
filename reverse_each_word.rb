@@ -10,7 +10,7 @@ new_array = string.split
   result = new_array[i].reverse
 end
 i += 1
-result
+result.join(" ")
 end
 
 
