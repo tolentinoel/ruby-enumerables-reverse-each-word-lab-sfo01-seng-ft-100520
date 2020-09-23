@@ -11,6 +11,7 @@ i = 0
   new_array[i].reverse
 end
 i += 1
+new_array
 end
 
 
