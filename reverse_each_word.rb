@@ -17,7 +17,7 @@ def test_this(string)
   string = string.split
   string.each do |i| 
     puts i.reverse
-    i.to_s
+    i.join()
   end
   
 end
