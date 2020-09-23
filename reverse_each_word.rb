@@ -18,8 +18,8 @@ def reverse_each_word(string)
   a = string.split
   
   a.collect do |i| 
-    x = i.reverse
-    puts x
+    puts i.reverse
+    
   end
 
 end
