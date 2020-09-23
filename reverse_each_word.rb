@@ -15,11 +15,13 @@ hello = "Ako jejemon, Ikaw sino ka?"
 # end
 
 def test_this(string)
+  x = " "
   a = string.split
+  
   a.collect do |i| 
     puts i.reverse
   end
-  
+ puts x
 end
  
 test_this(string)
