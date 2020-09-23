@@ -10,7 +10,7 @@ def reverse_each_word(string)
     new_array[i].reverse
     i += 1
   end
-  
+  puts new_array[i].reverse
 end
 
 
