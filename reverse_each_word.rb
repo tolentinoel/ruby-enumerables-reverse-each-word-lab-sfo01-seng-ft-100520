@@ -18,7 +18,7 @@ def test_this(string)
   string.each do |i| 
     puts i.reverse
   end
-  string.to_s
+  i.to_s
 end
 
 test_this(hello)
