@@ -18,7 +18,7 @@ def test_this(string)
   string.tap do |i| 
     puts i.reverse
   end
-  string.reverse
+  
 end
  
 test_this(string)
