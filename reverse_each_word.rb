@@ -1,5 +1,6 @@
 
-
+ required 'pry'
+ 
 string = "Hello there, and how are you?"
 hello = "Ako jejemon"
 
@@ -22,3 +23,4 @@ def test_this(string)
 end
 
 test_this(hello)
+binding.pry
