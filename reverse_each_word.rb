@@ -20,7 +20,7 @@ def test_this(string)
   a.collect do |i| 
     x << i.reverse
   end
-  x.join(" ")
+  p x.join(" ")
 end
  
 test_this(hello)
