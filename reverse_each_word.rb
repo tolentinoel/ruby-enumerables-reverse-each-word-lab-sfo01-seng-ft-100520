@@ -15,11 +15,11 @@ def reverse_each_word(string)
 # end
 
 # def test_this(string)
-  string = string.split
-  string.collect do |i| 
+  result = string.split
+  result.collect do |i| 
     i.reverse
   end
-   
+   puts result
 end
  reverse_each_word(string)
 # test_this(hello)
