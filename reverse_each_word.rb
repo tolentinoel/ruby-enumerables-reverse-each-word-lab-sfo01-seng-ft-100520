@@ -21,5 +21,5 @@ def reverse_each_word(string)
   end
   string
 end
-
+ reverse_each_word(string)
 # test_this(hello)
