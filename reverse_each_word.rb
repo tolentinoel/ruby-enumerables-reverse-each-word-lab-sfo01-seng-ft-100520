@@ -15,7 +15,7 @@ hello = "Ako jejemon, Ikaw sino ka?"
 # end
 
 def test_this(string)
-  a = string.split
+  a = string.split(" ")
   a.collect do |i| 
     result = i.reverse
     p result
