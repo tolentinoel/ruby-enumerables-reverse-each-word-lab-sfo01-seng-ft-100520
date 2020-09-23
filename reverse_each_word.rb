@@ -14,6 +14,7 @@ hello = "Ako jejemon"
 # end
 
 def test_this(string)
+  string = string.split
   string.each do |i| 
     puts i.reverse
   end
