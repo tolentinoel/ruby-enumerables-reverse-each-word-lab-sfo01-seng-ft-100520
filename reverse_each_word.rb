@@ -13,6 +13,7 @@ def reverse_each_word(string)
   p x.join(" ")
 end
  
+reverse_each_word(hello)
 
 #   i = 0
 #   new_array = string.split
