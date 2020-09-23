@@ -8,8 +8,9 @@ i = 0
 new_array = string.split
   if i < new_array.length 
   result = new_array[i].reverse
+  i += 1
 end
-i += 1
+
 result.join(" ")
 end
 
