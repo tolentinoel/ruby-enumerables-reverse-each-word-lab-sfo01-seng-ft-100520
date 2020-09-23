@@ -4,17 +4,7 @@
 string = "Hello there, and how are you?"
 hello = "Ako jejemon, Ikaw sino ka?"
 
-# def reverse_each_word(string)
-#   i = 0
-#   new_array = string.split
-#     if i < new_array.length 
-#     new_array[i].reverse
-#     i += 1
-#   end
-#   new_array
-# end
-
-def test_this(string)
+def reverse_each_word(string)
   x = []
   a = string.split
   a.collect do |i| 
@@ -23,4 +13,12 @@ def test_this(string)
   p x.join(" ")
 end
  
-test_this(string)
+
+#   i = 0
+#   new_array = string.split
+#     if i < new_array.length 
+#     new_array[i].reverse
+#     i += 1
+#   end
+#   new_array
+# end
