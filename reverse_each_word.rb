@@ -1,7 +1,7 @@
 
 
  
-# string = "Hello there, and how are you?"
+string = "Hello there, and how are you?"
 # hello = "Ako jejemon, Ikaw sino ka?"
 
 def reverse_each_word(string)
