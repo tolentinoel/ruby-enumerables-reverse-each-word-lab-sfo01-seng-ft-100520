@@ -1,8 +1,8 @@
 
 
  
-string = "Hello there, and how are you?"
-hello = "Ako jejemon, Ikaw sino ka?"
+# string = "Hello there, and how are you?"
+# hello = "Ako jejemon, Ikaw sino ka?"
 
 def reverse_each_word(string)
   x = []
@@ -13,7 +13,7 @@ def reverse_each_word(string)
   p x.join(" ")
 end
  
-reverse_each_word(hello)
+
 
 #   i = 0
 #   new_array = string.split
