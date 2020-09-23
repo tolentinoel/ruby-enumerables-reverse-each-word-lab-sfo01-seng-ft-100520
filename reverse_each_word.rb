@@ -1,5 +1,5 @@
 
- required 'pry'
+ require 'pry'
  
 string = "Hello there, and how are you?"
 hello = "Ako jejemon"
