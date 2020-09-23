@@ -6,8 +6,8 @@ string = "Hello there, and how are you?"
 
 def reverse_each_word(string)
   string = string.split
-  string.each do |i| 
-    puts i.reverse
+  string.collect {|i| i.reverse}
+    
   end
 
 end
