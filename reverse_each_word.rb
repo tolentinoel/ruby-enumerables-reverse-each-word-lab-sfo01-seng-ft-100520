@@ -10,6 +10,7 @@ def reverse_each_word(string)
     new_array[i].reverse
     i += 1
   end
+  new_array
 end
 
 reverse_each_word(hello)
