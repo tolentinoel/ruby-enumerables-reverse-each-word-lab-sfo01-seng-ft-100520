@@ -17,9 +17,9 @@ def reverse_each_word(string)
 # def test_this(string)
   string = string.split
   string.collect do |i| 
-    puts i.reverse
+    i.reverse
   end
-  string.join(" ")
+   
 end
  reverse_each_word(string)
 # test_this(hello)
