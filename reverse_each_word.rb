@@ -14,7 +14,9 @@ hello = "Ako jejemon"
 # end
 
 def test_this(string)
-  string.collect {|i| string.reverse}
+  string.each do |i| 
+    puts i.reverse
+  end
 end
 
 test_this(hello)
