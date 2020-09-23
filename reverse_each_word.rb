@@ -18,6 +18,7 @@ def reverse_each_word(string)
   result = string.split
   result.collect do |i| 
     puts i.reverse
+    result
   end
    
 end
