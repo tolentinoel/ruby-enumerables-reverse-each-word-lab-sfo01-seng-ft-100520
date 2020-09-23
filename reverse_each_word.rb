@@ -13,4 +13,4 @@ def reverse_each_word(string)
   puts new_array[i].reverse
 end
 
-
+reverse_each_word(hello)
