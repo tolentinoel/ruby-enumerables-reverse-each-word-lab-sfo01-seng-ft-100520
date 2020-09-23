@@ -17,10 +17,11 @@ hello = "Ako jejemon, Ikaw sino ka?"
 def test_this(string)
   a = string.split
   a.collect do |i| 
-    result.join(' ') = i.reverse
+    result.join(' ') 
+    i.reverse
     p result
   end
-end
+
 end
  
 test_this(hello)
