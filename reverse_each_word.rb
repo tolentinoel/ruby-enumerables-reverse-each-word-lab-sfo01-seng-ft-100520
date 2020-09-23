@@ -8,7 +8,7 @@ def reverse_each_word(string)
   new_array = string.split
     if i < new_array.length 
     new_array[i].reverse
-    # i += 1
+    i += 1
   end
 end
 
